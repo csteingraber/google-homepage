@@ -42,7 +42,7 @@ table {
 	border-spacing: 0;
 }
 
-img {
+.logo {
 	width: 272px;
 	height: 92px;
 	position: absolute;
@@ -91,4 +91,35 @@ button {
 	height: 34px;
 	top: 70px;
 	right: 18%;
+}
+	
+ul {
+	position: absolute;
+	right: 38px;
+	top: 10px;
+}
+
+li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+li:not(.last) {
+	margin: 0 5px;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+.sign-in {
+	width: 70px;
+	height: 30px;
+	background-color: #4285f4;
+	color: white;
 }
